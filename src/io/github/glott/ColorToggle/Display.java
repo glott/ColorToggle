@@ -86,8 +86,8 @@ public class Display
 			String s = readFile(f.getPath());
 			s = tdw ? s.replaceAll("ColorVideoMapsA.*", "ColorVideoMapsA Red=\"153\" Green=\"99\" Blue=\"0\" />") :
 					s.replaceAll("ColorVideoMapsA.*", "ColorVideoMapsA Red=\"140\" Green=\"140\" Blue=\"140\" />");
-			s = tdw ? s.replaceAll("ColorVideoMapsB.*", "ColorVideoMapsA Red=\"153\" Green=\"99\" Blue=\"0\" />") :
-					s.replaceAll("ColorVideoMapsB.*", "ColorVideoMapsA Red=\"140\" Green=\"140\" Blue=\"140\" />");
+			s = tdw ? s.replaceAll("ColorVideoMapsB.*", "ColorVideoMapsB Red=\"153\" Green=\"99\" Blue=\"0\" />") :
+					s.replaceAll("ColorVideoMapsB.*", "ColorVideoMapsB Red=\"140\" Green=\"140\" Blue=\"140\" />");
 			PrintWriter out = new PrintWriter(f.getPath());
 			out.println(s);
 			out.close();
