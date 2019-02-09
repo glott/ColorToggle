@@ -80,7 +80,7 @@ public class Display
 			TDWButton.setBackground(new Color(46, 204, 113));
 			TCWButton.setBackground(new Color(227, 227, 227));
 			DODButton.setBackground(new Color(227, 227, 227));
-		} else if (s.contains("ColorVideoMapsA Red=\"0\" Green=\"255\" Blue=\"255\""))
+		} else if (s.contains("ColorVideoMapsB Red=\"0\" Green=\"255\" Blue=\"255\""))
 		{
 			TDWButton.setBackground(new Color(227, 227, 227));
 			TCWButton.setBackground(new Color(227, 227, 227));
@@ -111,7 +111,7 @@ public class Display
 				s = s.replaceAll("ColorVideoMapsB.*", "ColorVideoMapsB Red=\"153\" Green=\"99\" Blue=\"0\" />");
 			} else
 			{
-				s = s.replaceAll("ColorVideoMapsA.*", "ColorVideoMapsA Red=\"0\" Green=\"255\" Blue=\"255\" />");
+				s = s.replaceAll("ColorVideoMapsA.*", "ColorVideoMapsA Red=\"140\" Green=\"140\" Blue=\"140\" />");
 				s = s.replaceAll("ColorVideoMapsB.*", "ColorVideoMapsB Red=\"0\" Green=\"255\" Blue=\"255\" />");
 			}
 			PrintWriter out = new PrintWriter(f.getPath());
