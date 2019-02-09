@@ -119,7 +119,6 @@ public class Display
 			out.close();
 		} catch (Exception ignored)
 		{
-
 		}
 		setTDWColors();
 	}
