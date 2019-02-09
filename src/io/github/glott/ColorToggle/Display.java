@@ -18,6 +18,7 @@ public class Display
 
 	private JButton TCWButton;
 	private JButton TDWButton;
+	private JButton DODButton;
 
 	public Display()
 	{
@@ -26,7 +27,7 @@ public class Display
 		{
 			public void actionPerformed(ActionEvent e)
 			{
-				setTDW(false);
+				setColors(0);
 			}
 		});
 
@@ -34,7 +35,15 @@ public class Display
 		{
 			public void actionPerformed(ActionEvent e)
 			{
-				setTDW(true);
+				setColors(1);
+			}
+		});
+
+		DODButton.addActionListener(new ActionListener()
+		{
+			public void actionPerformed(ActionEvent e)
+			{
+				setColors(2);
 			}
 		});
 	}
@@ -66,33 +75,51 @@ public class Display
 		} catch (Exception ignored)
 		{
 		}
-		boolean tdw = s.contains("ColorVideoMapsA Red=\"153\" Green=\"99\" Blue=\"0\"");
-		if (tdw)
+		if (s.contains("ColorVideoMapsA Red=\"153\" Green=\"99\" Blue=\"0\""))
 		{
 			TDWButton.setBackground(new Color(46, 204, 113));
 			TCWButton.setBackground(new Color(227, 227, 227));
+			DODButton.setBackground(new Color(227, 227, 227));
+		} else if (s.contains("ColorVideoMapsA Red=\"0\" Green=\"255\" Blue=\"255\""))
+		{
+			TDWButton.setBackground(new Color(227, 227, 227));
+			TCWButton.setBackground(new Color(227, 227, 227));
+			DODButton.setBackground(new Color(46, 204, 113));
 		} else
 		{
 			TDWButton.setBackground(new Color(227, 227, 227));
 			TCWButton.setBackground(new Color(46, 204, 113));
+			DODButton.setBackground(new Color(227, 227, 227));
 		}
 	}
 
-	private void setTDW(boolean tdw)
+	private void setColors(int i)
 	{
 		try
 		{
 			File f = new File(System.getProperty("user.home") + "\\AppData\\Roaming\\vSTARS\\vSTARSConfig.xml");
 			String s = readFile(f.getPath());
-			s = tdw ? s.replaceAll("ColorVideoMapsA.*", "ColorVideoMapsA Red=\"153\" Green=\"99\" Blue=\"0\" />") :
-					s.replaceAll("ColorVideoMapsA.*", "ColorVideoMapsA Red=\"140\" Green=\"140\" Blue=\"140\" />");
-			s = tdw ? s.replaceAll("ColorVideoMapsB.*", "ColorVideoMapsB Red=\"153\" Green=\"99\" Blue=\"0\" />") :
-					s.replaceAll("ColorVideoMapsB.*", "ColorVideoMapsB Red=\"140\" Green=\"140\" Blue=\"140\" />");
+			if (i == 0)
+			{
+				System.out.println(i);
+				s = s.replaceAll("ColorVideoMapsA.*", "ColorVideoMapsA Red=\"140\" Green=\"140\" Blue=\"140\" />");
+				s = s.replaceAll("ColorVideoMapsB.*", "ColorVideoMapsB Red=\"140\" Green=\"140\" Blue=\"140\" />");
+			} else if (i == 1)
+			{
+				System.out.println(i);
+				s = s.replaceAll("ColorVideoMapsA.*", "ColorVideoMapsA Red=\"153\" Green=\"99\" Blue=\"0\" />");
+				s = s.replaceAll("ColorVideoMapsB.*", "ColorVideoMapsB Red=\"153\" Green=\"99\" Blue=\"0\" />");
+			} else
+			{
+				s = s.replaceAll("ColorVideoMapsA.*", "ColorVideoMapsA Red=\"0\" Green=\"255\" Blue=\"255\" />");
+				s = s.replaceAll("ColorVideoMapsB.*", "ColorVideoMapsB Red=\"0\" Green=\"255\" Blue=\"255\" />");
+			}
 			PrintWriter out = new PrintWriter(f.getPath());
 			out.println(s);
 			out.close();
 		} catch (Exception ignored)
 		{
+
 		}
 		setTDWColors();
 	}
