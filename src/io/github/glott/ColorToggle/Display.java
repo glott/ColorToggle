@@ -22,7 +22,7 @@ public class Display
 
 	public Display()
 	{
-		setTDWColors();
+		setButtonColors();
 		TCWButton.addActionListener(new ActionListener()
 		{
 			public void actionPerformed(ActionEvent e)
@@ -66,7 +66,7 @@ public class Display
 		frame.setLocationRelativeTo(null);
 	}
 
-	private void setTDWColors()
+	private void setButtonColors()
 	{
 		String s = "";
 		try
@@ -75,7 +75,7 @@ public class Display
 		} catch (Exception ignored)
 		{
 		}
-		if (s.contains("ColorVideoMapsA Red=\"153\" Green=\"99\" Blue=\"0\""))
+		if (s.contains("ColorVideoMapsA Red=\"255\" Green=\"255\" Blue=\"0\""))
 		{
 			TDWButton.setBackground(new Color(46, 204, 113));
 			TCWButton.setBackground(new Color(227, 227, 227));
@@ -101,14 +101,12 @@ public class Display
 			String s = readFile(f.getPath());
 			if (i == 0)
 			{
-				System.out.println(i);
 				s = s.replaceAll("ColorVideoMapsA.*", "ColorVideoMapsA Red=\"140\" Green=\"140\" Blue=\"140\" />");
 				s = s.replaceAll("ColorVideoMapsB.*", "ColorVideoMapsB Red=\"140\" Green=\"140\" Blue=\"140\" />");
 			} else if (i == 1)
 			{
-				System.out.println(i);
-				s = s.replaceAll("ColorVideoMapsA.*", "ColorVideoMapsA Red=\"153\" Green=\"99\" Blue=\"0\" />");
-				s = s.replaceAll("ColorVideoMapsB.*", "ColorVideoMapsB Red=\"153\" Green=\"99\" Blue=\"0\" />");
+				s = s.replaceAll("ColorVideoMapsA.*", "ColorVideoMapsA Red=\"255\" Green=\"255\" Blue=\"0\" />");
+				s = s.replaceAll("ColorVideoMapsB.*", "ColorVideoMapsB Red=\"255\" Green=\"255\" Blue=\"0\" />");
 			} else
 			{
 				s = s.replaceAll("ColorVideoMapsA.*", "ColorVideoMapsA Red=\"140\" Green=\"140\" Blue=\"140\" />");
@@ -120,6 +118,6 @@ public class Display
 		} catch (Exception ignored)
 		{
 		}
-		setTDWColors();
+		setButtonColors();
 	}
 }
