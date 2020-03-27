@@ -1,7 +1,7 @@
 # ColorToggle
 _by Josh Glottmann_
 
-**Version 1.3.0** - 06/17/2019
+**Version 1.4.0** - 03/27/2020
 
 This is a lightweight software that allows you to switch vSTARS' map colors between those that would be used in a Terminal Controller Workstation (TCW) and a Tower Display Workstation (TDW).
 

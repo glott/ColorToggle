@@ -1,0 +1,37 @@
+    <Airport Elevation="13" Frequency="0" ID="KSFN" MagVar="0" Name="SAN FRANCISCO INTL">
+        <Location Lat="37.618805555556" Lon="-122.3754166666"/>
+        <Runways>
+            <Runway Heading="028" ID="01L" Length="7650" Width="200">
+                <StartLoc Lat="37.607897861111" Lon="-122.3829285"/>
+                <EndLoc Lat="37.626481361111" Lon="-122.3706094166"/>
+            </Runway>
+            <Runway Heading="208" ID="19R" Length="7650" Width="200">
+                <StartLoc Lat="37.626481361111" Lon="-122.3706094166"/>
+                <EndLoc Lat="37.607897861111" Lon="-122.3829285"/>
+            </Runway>
+            <Runway Heading="028" ID="01R" Length="8650" Width="200">
+                <StartLoc Lat="37.606329888889" Lon="-122.38104075"/>
+                <EndLoc Lat="37.627342194444" Lon="-122.3671108333"/>
+            </Runway>
+            <Runway Heading="208" ID="19L" Length="8650" Width="200">
+                <StartLoc Lat="37.627342194444" Lon="-122.3671108333"/>
+                <EndLoc Lat="37.606329888889" Lon="-122.38104075"/>
+            </Runway>
+            <Runway Heading="118" ID="10L" Length="11870" Width="200">
+                <StartLoc Lat="37.628738722222" Lon="-122.3933918611"/>
+                <EndLoc Lat="37.613533611111" Lon="-122.3571411111"/>
+            </Runway>
+            <Runway Heading="298" ID="28R" Length="11870" Width="200">
+                <StartLoc Lat="37.613533611111" Lon="-122.3571411111"/>
+                <EndLoc Lat="37.628738722222" Lon="-122.3933918611"/>
+            </Runway>
+            <Runway Heading="118" ID="10R" Length="11381" Width="200">
+                <StartLoc Lat="37.626291111111" Lon="-122.3931054444"/>
+                <EndLoc Lat="37.611711944444" Lon="-122.3583491666"/>
+            </Runway>
+            <Runway Heading="298" ID="28L" Length="11381" Width="200">
+                <StartLoc Lat="37.611711944444" Lon="-122.3583491666"/>
+                <EndLoc Lat="37.626291111111" Lon="-122.3931054444"/>
+            </Runway>
+        </Runways>
+    </Airport>
