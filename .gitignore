@@ -1,6 +1,7 @@
 /META-INF
 /out
 /src/META-INF
+/src/main/java/META-INF
 
 # Created by https://www.gitignore.io/api/java,notepadpp,eclipse,intellij,osx,jetbrains,windows
 
