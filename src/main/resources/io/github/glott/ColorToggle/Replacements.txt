@@ -1,5 +1,150 @@
     <Airport Elevation="13" Frequency="0" ID="KSFN" MagVar="0" Name="SAN FRANCISCO INTL">
         <Location Lat="37.618805555556" Lon="-122.3754166666"/>
+        <Runways REP="052321">
+            <Runway Heading="028" ID="01L" Length="7650" Width="200">
+                <StartLoc Lat="37.607897861111" Lon="-122.3829285"/>
+                <EndLoc Lat="37.626481361111" Lon="-122.3706094166"/>
+            </Runway>
+            <Runway Heading="208" ID="19R" Length="7650" Width="200">
+                <StartLoc Lat="37.626481361111" Lon="-122.3706094166"/>
+                <EndLoc Lat="37.607897861111" Lon="-122.3829285"/>
+            </Runway>
+            <Runway Heading="028" ID="01R" Length="8650" Width="200">
+                <StartLoc Lat="37.606329888889" Lon="-122.38104075"/>
+                <EndLoc Lat="37.627342194444" Lon="-122.3671108333"/>
+            </Runway>
+            <Runway Heading="208" ID="19L" Length="8650" Width="200">
+                <StartLoc Lat="37.627342194444" Lon="-122.3671108333"/>
+                <EndLoc Lat="37.606329888889" Lon="-122.38104075"/>
+            </Runway>
+            <Runway Heading="118" ID="10L" Length="11870" Width="200">
+                <StartLoc Lat="37.628738722222" Lon="-122.3933918611"/>
+                <EndLoc Lat="37.613533611111" Lon="-122.3571411111"/>
+            </Runway>
+            <Runway Heading="298" ID="28R" Length="11870" Width="200">
+                <StartLoc Lat="37.613533611111" Lon="-122.3571411111"/>
+                <EndLoc Lat="37.628738722222" Lon="-122.3933918611"/>
+            </Runway>
+            <Runway Heading="118" ID="10R" Length="11381" Width="200">
+                <StartLoc Lat="37.626291111111" Lon="-122.3931054444"/>
+                <EndLoc Lat="37.611711944444" Lon="-122.3583491666"/>
+            </Runway>
+            <Runway Heading="298" ID="28L" Length="11381" Width="200">
+                <StartLoc Lat="37.611711944444" Lon="-122.3583491666"/>
+                <EndLoc Lat="37.626291111111" Lon="-122.3931054444"/>
+            </Runway>
+        </Runways>
+    </Airport>
+    <Airport Elevation="335" Frequency="0" ID="NFAT" MagVar="0" Name="FRESNO YOSEMITE INTL">
+        <Location Lat="36.776555555556" Lon="-119.7188333333"/>
+        <Runways>
+            <Runway Heading="125" ID="11L" Length="9539" Width="150">
+                <StartLoc Lat="36.784001666667" Lon="-119.7300855833"/>
+                <EndLoc Lat="36.768839666667" Lon="-119.7035249444"/>
+            </Runway>
+            <Runway Heading="305" ID="29R" Length="9539" Width="150">
+                <StartLoc Lat="36.768839666667" Lon="-119.7035249444"/>
+                <EndLoc Lat="36.784001666667" Lon="-119.7300855833"/>
+            </Runway>
+            <Runway Heading="125" ID="11R" Length="8008" Width="150">
+                <StartLoc Lat="36.783061583333" Lon="-119.7324214166"/>
+                <EndLoc Lat="36.7703345" Lon="-119.7101222777"/>
+            </Runway>
+            <Runway Heading="305" ID="29L" Length="8008" Width="150">
+                <StartLoc Lat="36.7703345" Lon="-119.7101222777"/>
+                <EndLoc Lat="36.783061583333" Lon="-119.7324214166"/>
+            </Runway>
+        </Runways>
+    </Airport>
+    <Airport Elevation="256" Frequency="0" ID="NMRY" MagVar="0" Name="MONTEREY RGNL">
+        <Location Lat="36.586952222222" Lon="-121.8427830555"/>
+        <Runways>
+            <Runway Heading="113" ID="10L" Length="3503" Width="60">
+                <StartLoc Lat="36.588581916667" Lon="-121.8446336666"/>
+                <EndLoc Lat="36.584857222222" Lon="-121.8336333611"/>
+            </Runway>
+            <Runway Heading="293" ID="28R" Length="3503" Width="60">
+                <StartLoc Lat="36.584857222222" Lon="-121.8336333611"/>
+                <EndLoc Lat="36.588581916667" Lon="-121.8446336666"/>
+            </Runway>
+            <Runway Heading="113" ID="10R" Length="7175" Width="150">
+                <StartLoc Lat="36.590876111111" Lon="-121.8558341666"/>
+                <EndLoc Lat="36.583254166667" Lon="-121.8332966666"/>
+            </Runway>
+            <Runway Heading="293" ID="28L" Length="7175" Width="150">
+                <StartLoc Lat="36.583254166667" Lon="-121.8332966666"/>
+                <EndLoc Lat="36.590876111111" Lon="-121.8558341666"/>
+            </Runway>
+        </Runways>
+    </Airport>
+    <Airport Elevation="9" Frequency="0" ID="NOAK" MagVar="0" Name="METRO OAKLAND INTL">
+        <Location Lat="37.72125" Lon="-122.2211388888"/>
+        <Runways>
+            <Runway Heading="112" ID="10L" Length="5458" Width="150">
+                <StartLoc Lat="37.730468472222" Lon="-122.2221800277"/>
+                <EndLoc Lat="37.724812416667" Lon="-122.2047035833"/>
+            </Runway>
+            <Runway Heading="292" ID="28R" Length="5458" Width="150">
+                <StartLoc Lat="37.724812416667" Lon="-122.2047035833"/>
+                <EndLoc Lat="37.730468472222" Lon="-122.2221800277"/>
+            </Runway>
+            <Runway Heading="112" ID="10R" Length="6213" Width="150">
+                <StartLoc Lat="37.728706944444" Lon="-122.2259030277"/>
+                <EndLoc Lat="37.722271666667" Lon="-122.2060094722"/>
+            </Runway>
+            <Runway Heading="292" ID="28L" Length="6213" Width="150">
+                <StartLoc Lat="37.722271666667" Lon="-122.2060094722"/>
+                <EndLoc Lat="37.728706944444" Lon="-122.2259030277"/>
+            </Runway>
+            <Runway Heading="130" ID="12" Length="10520" Width="150">
+                <StartLoc Lat="37.720062666667" Lon="-122.2421148055"/>
+                <EndLoc Lat="37.701492638889" Lon="-122.2142569722"/>
+            </Runway>
+            <Runway Heading="310" ID="30" Length="10520" Width="150">
+                <StartLoc Lat="37.701492638889" Lon="-122.2142569722"/>
+                <EndLoc Lat="37.720062666667" Lon="-122.2421148055"/>
+            </Runway>
+            <Runway Heading="164" ID="15" Length="3376" Width="75">
+                <StartLoc Lat="37.740291583333" Lon="-122.2228076666"/>
+                <EndLoc Lat="37.73136125" Lon="-122.2196738888"/>
+            </Runway>
+            <Runway Heading="344" ID="33" Length="3376" Width="75">
+                <StartLoc Lat="37.73136125" Lon="-122.2196738888"/>
+                <EndLoc Lat="37.740291583333" Lon="-122.2228076666"/>
+            </Runway>
+        </Runways>
+    </Airport>
+    <Airport Elevation="4414" Frequency="0" ID="NRNO" MagVar="0" Name="RENO/TAHOE INTL">
+        <Location Lat="39.499111111111" Lon="-119.7681111111"/>
+        <Runways>
+            <Runway Heading="090" ID="07" Length="6102" Width="150">
+                <StartLoc Lat="39.496286083333" Lon="-119.7788394444"/>
+                <EndLoc Lat="39.496214972222" Lon="-119.7572216111"/>
+            </Runway>
+            <Runway Heading="270" ID="25" Length="6102" Width="150">
+                <StartLoc Lat="39.496214972222" Lon="-119.7572216111"/>
+                <EndLoc Lat="39.496286083333" Lon="-119.7788394444"/>
+            </Runway>
+            <Runway Heading="180" ID="16L" Length="9000" Width="150">
+                <StartLoc Lat="39.5138405" Lon="-119.7667405555"/>
+                <EndLoc Lat="39.489137472222" Lon="-119.76680475"/>
+            </Runway>
+            <Runway Heading="000" ID="34R" Length="9000" Width="150">
+                <StartLoc Lat="39.489137472222" Lon="-119.76680475"/>
+                <EndLoc Lat="39.5138405" Lon="-119.7667405555"/>
+            </Runway>
+            <Runway Heading="180" ID="16R" Length="11001" Width="150">
+                <StartLoc Lat="39.513843916667" Lon="-119.7692204722"/>
+                <EndLoc Lat="39.48364825" Lon="-119.7692986111"/>
+            </Runway>
+            <Runway Heading="000" ID="34L" Length="11001" Width="150">
+                <StartLoc Lat="39.48364825" Lon="-119.7692986111"/>
+                <EndLoc Lat="39.513843916667" Lon="-119.7692204722"/>
+            </Runway>
+        </Runways>
+    </Airport>
+    <Airport Elevation="13" Frequency="0" ID="NSFO" MagVar="0" Name="SAN FRANCISCO INTL">
+        <Location Lat="37.618805555556" Lon="-122.3754166666"/>
         <Runways>
             <Runway Heading="028" ID="01L" Length="7650" Width="200">
                 <StartLoc Lat="37.607897861111" Lon="-122.3829285"/>
@@ -32,6 +177,177 @@
             <Runway Heading="298" ID="28L" Length="11381" Width="200">
                 <StartLoc Lat="37.611711944444" Lon="-122.3583491666"/>
                 <EndLoc Lat="37.626291111111" Lon="-122.3931054444"/>
+            </Runway>
+        </Runways>
+    </Airport>
+    <Airport Elevation="62" Frequency="0" ID="NSJC" MagVar="0" Name="NORMAN Y MINETA SAN JOSE INTL">
+        <Location Lat="37.362994722222" Lon="-121.9286205555"/>
+        <Runways>
+            <Runway Heading="139" ID="12L" Length="11000" Width="150">
+                <StartLoc Lat="37.374994472222" Lon="-121.9401771388"/>
+                <EndLoc Lat="37.352259" Lon="-121.9152558888"/>
+            </Runway>
+            <Runway Heading="319" ID="30R" Length="11000" Width="150">
+                <StartLoc Lat="37.352259" Lon="-121.9152558888"/>
+                <EndLoc Lat="37.374994472222" Lon="-121.9401771388"/>
+            </Runway>
+            <Runway Heading="139" ID="12R" Length="11000" Width="150">
+                <StartLoc Lat="37.373729611111" Lon="-121.9419888055"/>
+                <EndLoc Lat="37.3509935" Lon="-121.9170675555"/>
+            </Runway>
+            <Runway Heading="319" ID="30L" Length="11000" Width="150">
+                <StartLoc Lat="37.3509935" Lon="-121.9170675555"/>
+                <EndLoc Lat="37.373729611111" Lon="-121.9419888055"/>
+            </Runway>
+        </Runways>
+    </Airport>
+    <Airport Elevation="26" Frequency="0" ID="NSMF" MagVar="0" Name="SACRAMENTO INTL">
+        <Location Lat="38.695444444444" Lon="-121.5907777777"/>
+        <Runways>
+            <Runway Heading="181" ID="17L" Length="8605" Width="150">
+                <StartLoc Lat="38.707138138889" Lon="-121.5800590277"/>
+                <EndLoc Lat="38.683514055556" Lon="-121.5804561111"/>
+            </Runway>
+            <Runway Heading="001" ID="35R" Length="8605" Width="150">
+                <StartLoc Lat="38.683514055556" Lon="-121.5804561111"/>
+                <EndLoc Lat="38.707138138889" Lon="-121.5800590277"/>
+            </Runway>
+            <Runway Heading="181" ID="17R" Length="8598" Width="150">
+                <StartLoc Lat="38.707339888889" Lon="-121.60108225"/>
+                <EndLoc Lat="38.683733055556" Lon="-121.6014743055"/>
+            </Runway>
+            <Runway Heading="001" ID="35L" Length="8598" Width="150">
+                <StartLoc Lat="38.683733055556" Lon="-121.6014743055"/>
+                <EndLoc Lat="38.707339888889" Lon="-121.60108225"/>
+            </Runway>
+        </Runways>
+    </Airport>
+    <Airport Elevation="65" Frequency="0" ID="NFLL" MagVar="0" Name="FORT LAUDERDALE/HOLLYWOOD INTL">
+        <Location Lat="26.071666666667" Lon="-80.14969444444"/>
+        <Runways>
+            <Runway Heading="090" ID="10L" Length="9000" Width="150">
+                <StartLoc Lat="26.076949055556" Lon="-80.16653836111"/>
+                <EndLoc Lat="26.076791861111" Lon="-80.13912083333"/>
+            </Runway>
+            <Runway Heading="270" ID="28R" Length="9000" Width="150">
+                <StartLoc Lat="26.076791861111" Lon="-80.13912083333"/>
+                <EndLoc Lat="26.076949055556" Lon="-80.16653836111"/>
+            </Runway>
+            <Runway Heading="090" ID="10R" Length="8000" Width="150">
+                <StartLoc Lat="26.065886638889" Lon="-80.15834888888"/>
+                <EndLoc Lat="26.065742166667" Lon="-80.133983"/>
+            </Runway>
+            <Runway Heading="270" ID="28L" Length="8000" Width="150">
+                <StartLoc Lat="26.065742166667" Lon="-80.133983"/>
+                <EndLoc Lat="26.065886638889" Lon="-80.15834888888"/>
+            </Runway>
+        </Runways>
+    </Airport>
+    <Airport Elevation="9" Frequency="0" ID="NMIA" MagVar="0" Name="MIAMI INTL">
+        <Location Lat="25.795361111111" Lon="-80.29011583333"/>
+        <Runways>
+            <Runway Heading="087" ID="08L" Length="8600" Width="150">
+                <StartLoc Lat="25.802897777778" Lon="-80.30154188888"/>
+                <EndLoc Lat="25.803977888889" Lon="-80.27543052777"/>
+            </Runway>
+            <Runway Heading="267" ID="26R" Length="8600" Width="150">
+                <StartLoc Lat="25.803977888889" Lon="-80.27543052777"/>
+                <EndLoc Lat="25.802897777778" Lon="-80.30154188888"/>
+            </Runway>
+            <Runway Heading="087" ID="08R" Length="10506" Width="200">
+                <StartLoc Lat="25.800699361111" Lon="-80.301433"/>
+                <EndLoc Lat="25.802018111111" Lon="-80.26953561111"/>
+            </Runway>
+            <Runway Heading="267" ID="26L" Length="10506" Width="200">
+                <StartLoc Lat="25.802018111111" Lon="-80.26953561111"/>
+                <EndLoc Lat="25.800699361111" Lon="-80.301433"/>
+            </Runway>
+            <Runway Heading="087" ID="09" Length="13016" Width="150">
+                <StartLoc Lat="25.786095027778" Lon="-80.31483813888"/>
+                <EndLoc Lat="25.787731333333" Lon="-80.27532530555"/>
+            </Runway>
+            <Runway Heading="267" ID="27" Length="13016" Width="150">
+                <StartLoc Lat="25.787731333333" Lon="-80.27532530555"/>
+                <EndLoc Lat="25.786095027778" Lon="-80.31483813888"/>
+            </Runway>
+            <Runway Heading="119" ID="12" Length="9360" Width="150">
+                <StartLoc Lat="25.799285055556" Lon="-80.30228997222"/>
+                <EndLoc Lat="25.786617333333" Lon="-80.27752236111"/>
+            </Runway>
+            <Runway Heading="299" ID="30" Length="9360" Width="150">
+                <StartLoc Lat="25.786617333333" Lon="-80.27752236111"/>
+                <EndLoc Lat="25.799285055556" Lon="-80.30228997222"/>
+            </Runway>
+        </Runways>
+    </Airport>
+    <Airport Elevation="19" Frequency="0" ID="NPBI" MagVar="0" Name="PALM BEACH INTL">
+        <Location Lat="26.683161666667" Lon="-80.09559194444"/>
+        <Runways>
+            <Runway Heading="093" ID="10L" Length="10001" Width="150">
+                <StartLoc Lat="26.683208138889" Lon="-80.10836933333"/>
+                <EndLoc Lat="26.681873277778" Lon="-80.07778158333"/>
+            </Runway>
+            <Runway Heading="273" ID="28R" Length="10001" Width="150">
+                <StartLoc Lat="26.681873277778" Lon="-80.07778158333"/>
+                <EndLoc Lat="26.683208138889" Lon="-80.10836933333"/>
+            </Runway>
+            <Runway Heading="093" ID="10R" Length="3214" Width="75">
+                <StartLoc Lat="26.681189444444" Lon="-80.10628933333"/>
+                <EndLoc Lat="26.680759083333" Lon="-80.09645836111"/>
+            </Runway>
+            <Runway Heading="273" ID="28L" Length="3214" Width="75">
+                <StartLoc Lat="26.680759083333" Lon="-80.09645836111"/>
+                <EndLoc Lat="26.681189444444" Lon="-80.10628933333"/>
+            </Runway>
+            <Runway Heading="135" ID="14" Length="6931" Width="150">
+                <StartLoc Lat="26.691832222222" Lon="-80.10402277777"/>
+                <EndLoc Lat="26.678309166667" Lon="-80.08906166666"/>
+            </Runway>
+            <Runway Heading="315" ID="32" Length="6931" Width="150">
+                <StartLoc Lat="26.678309166667" Lon="-80.08906166666"/>
+                <EndLoc Lat="26.691832222222" Lon="-80.10402277777"/>
+            </Runway>
+        </Runways>
+    </Airport>
+    <Airport Elevation="29" Frequency="0" ID="NRSW" MagVar="0" Name="SOUTHWEST FLORIDA INTL">
+        <Location Lat="26.536166666667" Lon="-81.75516666666"/>
+        <Runways>
+            <Runway Heading="054" ID="06" Length="12000" Width="150">
+                <StartLoc Lat="26.526485222222" Lon="-81.77001925"/>
+                <EndLoc Lat="26.545839888889" Lon="-81.74028736111"/>
+            </Runway>
+            <Runway Heading="234" ID="24" Length="12000" Width="150">
+                <StartLoc Lat="26.545839888889" Lon="-81.74028736111"/>
+                <EndLoc Lat="26.526485222222" Lon="-81.77001925"/>
+            </Runway>
+        </Runways>
+    </Airport>
+    <Airport Elevation="26" Frequency="0" ID="NTPA" MagVar="0" Name="TAMPA INTL">
+        <Location Lat="27.975472222222" Lon="-82.53325"/>
+        <Runways>
+            <Runway Heading="002" ID="01L" Length="11002" Width="150">
+                <StartLoc Lat="27.963294333333" Lon="-82.54235536111"/>
+                <EndLoc Lat="27.993539527778" Lon="-82.54132780555"/>
+            </Runway>
+            <Runway Heading="182" ID="19R" Length="11002" Width="150">
+                <StartLoc Lat="27.993539527778" Lon="-82.54132780555"/>
+                <EndLoc Lat="27.963294333333" Lon="-82.54235536111"/>
+            </Runway>
+            <Runway Heading="002" ID="01R" Length="8300" Width="150">
+                <StartLoc Lat="27.96431025" Lon="-82.52899130555"/>
+                <EndLoc Lat="27.987127972222" Lon="-82.52821497222"/>
+            </Runway>
+            <Runway Heading="182" ID="19L" Length="8300" Width="150">
+                <StartLoc Lat="27.987127972222" Lon="-82.52821497222"/>
+                <EndLoc Lat="27.96431025" Lon="-82.52899130555"/>
+            </Runway>
+            <Runway Heading="092" ID="10" Length="6999" Width="150">
+                <StartLoc Lat="27.970831027778" Lon="-82.53608408333"/>
+                <EndLoc Lat="27.970247277778" Lon="-82.51441058333"/>
+            </Runway>
+            <Runway Heading="272" ID="28" Length="6999" Width="150">
+                <StartLoc Lat="27.970247277778" Lon="-82.51441058333"/>
+                <EndLoc Lat="27.970831027778" Lon="-82.53608408333"/>
             </Runway>
         </Runways>
     </Airport>

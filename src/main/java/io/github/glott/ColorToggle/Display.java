@@ -19,8 +19,7 @@ public class Display
     private JButton DODButton;
     private JButton updateNavDataButton;
 
-    private DataHandler dh;
-    private io.github.glott.NavDataUpdater.Display navDisplay;
+    private final DataHandler dh;
     private SwingWorker worker;
 
     public Display()
@@ -30,14 +29,14 @@ public class Display
         TDWButton.addActionListener(e -> setColors(1));
         DODButton.addActionListener(e -> setColors(2));
 
-        navDisplay = new io.github.glott.NavDataUpdater.Display();
+        io.github.glott.NavDataUpdater.Display navDisplay = new io.github.glott.NavDataUpdater.Display();
         dh = new DataHandler(navDisplay.getExceptions());
         updateNavDataButton.addActionListener(e ->
                 {
                     worker = new SwingWorker<Void, Void>()
                     {
                         @Override
-                        protected Void doInBackground() throws Exception
+                        protected Void doInBackground()
                         {
                             updateNavDataButton.setEnabled(false);
                             try
