@@ -1,6 +1,6 @@
     <Airport Elevation="13" Frequency="0" ID="KSFN" MagVar="0" Name="SAN FRANCISCO INTL">
         <Location Lat="37.618805555556" Lon="-122.3754166666"/>
-        <Runways REP="052321">
+        <Runways REP="052421">
             <Runway Heading="028" ID="01L" Length="7650" Width="200">
                 <StartLoc Lat="37.607897861111" Lon="-122.3829285"/>
                 <EndLoc Lat="37.626481361111" Lon="-122.3706094166"/>

@@ -8,7 +8,6 @@ import java.util.Scanner;
 public class AirportUpdater
 {
 
-    private static final String REP_DATE = "052321";
     private static final File AIRPORTS = new File(System.getProperty("user.home") + "\\AppData\\Roaming\\vSTARS\\Airports.xml");
 
     public static void updateAirports()
@@ -46,7 +45,10 @@ public class AirportUpdater
     {
         String s = new String(data, StandardCharsets.UTF_8);
 
-        if (!s.contains("REP=\"" + REP_DATE + "\""))
+        int idx = replacement.indexOf("REP=\"");
+        String date = replacement.substring(idx + 5, idx + 11);
+
+        if (!s.contains("REP=\"" + date + "\""))
         {
             s = s.replaceFirst("</Airport>", "</Airport>\n" + replacement);
 
@@ -61,5 +63,4 @@ public class AirportUpdater
             }
         }
     }
-
 }
