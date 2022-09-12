@@ -112,7 +112,8 @@ public class Display
             fis.read(data);
             fis.close();
 
-            String s = new String(data, StandardCharsets.UTF_8);
+            String s = new String(data, StandardCharsets.UTF_8).replace('’', '\'')
+                    .replace(" ", "").replaceAll("/>[ ]{0,}<", "/>\n<");
 
             if (i == 0)
             {
